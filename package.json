@@ -1,0 +1,57 @@
+{
+  "name": "ionic-hello-world",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
+  },
+  "dependencies": {
+    "@angular/common": "4.0.0-rc.5",
+    "@angular/compiler": "4.0.0-rc.5",
+    "@angular/compiler-cli": "4.0.0-rc.5",
+    "@angular/core": "4.0.0-rc.5",
+    "@angular/forms": "4.0.0-rc.5",
+    "@angular/http": "4.0.0-rc.5",
+    "@angular/platform-browser": "4.0.0-rc.5",
+    "@angular/platform-browser-dynamic": "4.0.0-rc.5",
+    "@angular/platform-server": "4.0.0-rc.5",
+    "@ionic-native/inappbrowser": "^3.0.0-alpha.1",
+    "@ionic-native/splashscreen": "^3.0.0-alpha.1",
+    "@ionic/storage": "2.0.1",
+    "ionic-angular": "2.2.0-201703171907",
+    "ionicons": "3.0.0",
+    "rxjs": "5.0.1",
+    "sw-toolbox": "3.4.0",
+    "zone.js": "0.7.2"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "1.1.4",
+    "typescript": "2.2.1"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [
+    "ios",
+    {
+      "platform": "ios",
+      "version": "",
+      "locator": "ios"
+    }
+  ],
+  "description": "app: An Ionic project",
+  "config": {
+    "ionic_experimental_parse_deeplinks": true,
+    "ionic_generate_source_map": true,
+    "ionic_aot_write_to_disk": true
+  }
+}
